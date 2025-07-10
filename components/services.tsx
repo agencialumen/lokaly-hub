@@ -29,7 +29,7 @@ const services = [
     description: "Lojas personalizadas Shopify",
     features: ["Temas Custom", "Apps", "Otimização"],
     highlight: true,
-    image: "/images/shopify-service.jpg",
+    image: "https://iili.io/FEbqEKu.jpg",
   },
   {
     icon: Smartphone,
