@@ -105,7 +105,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Hero Image */}
+          {/* Hero Video */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -113,12 +113,51 @@ export default function Hero() {
             className="relative"
           >
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-purple-600/20 to-fuchsia-600/20 rounded-2xl blur-2xl"></div>
-              <div className="relative bg-gradient-to-br from-purple-900/30 to-black border border-purple-500/30 rounded-2xl p-6 md:p-8 backdrop-blur-sm">
-                <div className="aspect-square bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20 rounded-xl flex items-center justify-center">
-                  <div className="w-full h-full bg-gradient-to-br from-purple-500/30 to-fuchsia-500/30 rounded-xl flex items-center justify-center float-animation">
-                    <div className="w-full h-full bg-gradient-to-br from-purple-400/10 to-fuchsia-400/10 rounded-xl"></div>
-                  </div>
+              {/* Glow Effect Background */}
+              <div className="absolute -inset-6 bg-gradient-to-r from-purple-600/30 to-fuchsia-600/30 rounded-3xl blur-3xl"></div>
+
+              {/* Video Container */}
+              <div className="relative bg-gradient-to-br from-purple-900/40 to-black border-2 border-purple-500/40 rounded-3xl p-4 md:p-6 backdrop-blur-sm overflow-hidden">
+                {/* Decorative Elements */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/20 rounded-full blur-2xl"></div>
+                <div className="absolute bottom-0 left-0 w-32 h-32 bg-fuchsia-500/20 rounded-full blur-2xl"></div>
+
+                {/* Video Element */}
+                <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20">
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover rounded-2xl"
+                    style={{ filter: "brightness(0.9) contrast(1.1)" }}
+                  >
+                    <source src="video5157019545008866354.mp4" type="video/mp4" />
+                    {/* Fallback para quando o vídeo não carregar */}
+                    <div className="w-full h-full bg-gradient-to-br from-purple-500/30 to-fuchsia-500/30 rounded-2xl flex items-center justify-center">
+                      <div className="w-full h-full bg-gradient-to-br from-purple-400/20 to-fuchsia-400/20 rounded-2xl flex items-center justify-center">
+                        <div className="text-center">
+                          <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <Play className="h-8 w-8 text-white" />
+                          </div>
+                          <p className="text-purple-300 text-sm">Carregando experiência...</p>
+                        </div>
+                      </div>
+                    </div>
+                  </video>
+
+                  {/* Overlay Effect */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent opacity-60 pointer-events-none"></div>
+
+                  {/* Floating Elements */}
+                  <div className="absolute top-4 left-4 w-3 h-3 bg-purple-400 rounded-full animate-pulse"></div>
+                  <div className="absolute top-8 right-6 w-2 h-2 bg-fuchsia-400 rounded-full animate-pulse delay-500"></div>
+                  <div className="absolute bottom-6 left-8 w-2 h-2 bg-cyan-400 rounded-full animate-pulse delay-1000"></div>
+                </div>
+
+                {/* Tech Badge */}
+                <div className="absolute -bottom-3 -right-3 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+                  ✨ TECH HUB
                 </div>
               </div>
             </div>
