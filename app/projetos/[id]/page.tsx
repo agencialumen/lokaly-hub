@@ -7,7 +7,7 @@ import { notFound } from "next/navigation"
 
 const projectsData = [
   {
-    id: "dashboard-adag",
+    id: "shopify-store",
     title: "Dashboard ADAG",
     category: "Web Design",
     image: "https://iili.io/3ucdi0J.png",
@@ -19,35 +19,6 @@ const projectsData = [
     date: "Março 2025",
     link: "https://adag.netlify.app/",
     gallery: ["https://iili.io/3ucdi0J.png"],
-  },
-  {
-    id: "website-academia",
-    title: "Web Site Academia",
-    category: "Web Design",
-    image: "https://iili.io/3uchkba.png",
-    description:
-      "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
-    fullDescription:
-      "Criamos um website completo para academia com sistema de agendamento online, área de membros, integração com redes sociais e design responsivo. O site permite que os clientes visualizem horários de aulas, façam agendamentos e acompanhem seu progresso.",
-    technologies: ["React", "Next.js", "MongoDB", "Stripe API"],
-    client: "Academia Fitness",
-    date: "Janeiro 2025",
-    link: "https://exemplo.com/academia",
-    gallery: ["https://iili.io/3uchkba.png"],
-  },
-  {
-    id: "hiven-money-app",
-    title: "Hiven Money APP",
-    category: "Apps Mobile",
-    image: "https://iili.io/3u0dxAQ.png",
-    description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
-    fullDescription:
-      "Desenvolvemos um aplicativo móvel inovador que ajuda os usuários a automatizar seus investimentos e maximizar seus ganhos. O app utiliza algoritmos avançados para analisar o mercado e sugerir as melhores oportunidades de investimento, fazendo o dinheiro 'trabalhar como uma abelha'.",
-    technologies: ["React Native", "GraphQL", "MongoDB", "Firebase"],
-    client: "Hiven Finance",
-    date: "Maio 2025",
-    link: "https://exemplo.com/hiven",
-    gallery: ["https://iili.io/3u0dxAQ.png"],
   },
 ]
 

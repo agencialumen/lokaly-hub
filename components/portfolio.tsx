@@ -18,48 +18,6 @@ import {
 
 const projects = [
   {
-    id: "dashboard-adag",
-    title: "Dashboard ADAG",
-    category: "Web Design",
-    image: "https://iili.io/3ucdi0J.png",
-    description: "Dashboard financeiro interativo com análises em tempo real",
-    tags: [
-      { name: "Analytics", icon: BarChart3, color: "from-blue-500 to-cyan-500" },
-      { name: "Dashboard", icon: Globe, color: "from-green-500 to-emerald-500" },
-      { name: "Finance", icon: Zap, color: "from-yellow-500 to-orange-500" },
-    ],
-    tech: ["Vue.js", "D3.js", "Firebase"],
-    gradient: "from-blue-600/20 to-cyan-600/20",
-  },
-  {
-    id: "website-academia",
-    title: "Website Academia",
-    category: "Web Design",
-    image: "https://iili.io/3uchkba.png",
-    description: "Site responsivo para academias com sistema de agendamento",
-    tags: [
-      { name: "Responsive", icon: Smartphone, color: "from-purple-500 to-pink-500" },
-      { name: "Web Design", icon: Globe, color: "from-indigo-500 to-purple-500" },
-      { name: "UI/UX", icon: Palette, color: "from-pink-500 to-rose-500" },
-    ],
-    tech: ["React", "Next.js", "MongoDB"],
-    gradient: "from-purple-600/20 to-pink-600/20",
-  },
-  {
-    id: "hiven-money-app",
-    title: "Hiven Money APP",
-    category: "Apps Mobile",
-    image: "https://iili.io/3u0dxAQ.png",
-    description: "App de investimentos automatizados com IA",
-    tags: [
-      { name: "Mobile App", icon: Smartphone, color: "from-emerald-500 to-teal-500" },
-      { name: "FinTech", icon: BarChart3, color: "from-teal-500 to-cyan-500" },
-      { name: "AI", icon: Zap, color: "from-cyan-500 to-blue-500" },
-    ],
-    tech: ["React Native", "GraphQL", "AI"],
-    gradient: "from-emerald-600/20 to-teal-600/20",
-  },
-  {
     id: "shopify-store",
     title: "Loja Shopify Premium",
     category: "E-commerce",
