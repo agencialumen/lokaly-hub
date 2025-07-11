@@ -157,7 +157,7 @@ export default function Hero() {
 
                 {/* Tech Badge */}
                 <div className="absolute -bottom-3 -right-3 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
-                  ✨ TECH HUB
+                  
                 </div>
               </div>
             </div>
