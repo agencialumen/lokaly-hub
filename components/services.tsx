@@ -279,7 +279,7 @@ export default function Services() {
                 >
                   {service.highlight && (
                     <div className="absolute -top-2 -right-2 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white text-xs font-bold px-3 py-1.5 rounded-full z-10 shadow-lg animate-pulse">
-                      ⭐ DESTAQUE
+                      
                     </div>
                   )}
 
