@@ -6,38 +6,17 @@ import { Linkedin, Github, Twitter, ChevronLeft, ChevronRight } from "lucide-rea
 
 const team = [
   {
-    name: "Ana Silva",
-    role: "CEO & Fundadora",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Guilherme",
+    role: "CEO & Dev",
+    image: "https://iili.io/FGSKLCv.jpg",
     bio: "Estratégia digital com +10 anos",
     social: { linkedin: "#", github: "#", twitter: "#" },
   },
   {
-    name: "Carlos Santos",
-    role: "CTO",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "Full-stack & tecnologias inovadoras",
-    social: { linkedin: "#", github: "#", twitter: "#" },
-  },
-  {
-    name: "Maria Costa",
-    role: "Head of Design",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "UX/UI & experiências memoráveis",
-    social: { linkedin: "#", github: "#", twitter: "#" },
-  },
-  {
-    name: "João Oliveira",
-    role: "Marketing Director",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "Growth hacking & performance",
-    social: { linkedin: "#", github: "#", twitter: "#" },
-  },
-  {
-    name: "Sofia Mendes",
-    role: "Shopify Specialist",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "E-commerce & conversão",
+    name: "Alex Santana",
+    role: "CO-Fundador",
+    image: "https://iili.io/FGSBBIe.jpg",
+    bio: "Coach & Palestra",
     social: { linkedin: "#", github: "#", twitter: "#" },
   },
 ]
